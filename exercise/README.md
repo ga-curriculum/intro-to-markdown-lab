@@ -97,6 +97,7 @@ This text is ***bold and italicized***. This text is also ___bold and italicized
 This text is ***bold and italicized***. This text is also ___bold and italicized___.
 <!-- End Preview -->
 
+<br>
 <hr>
 
 ### You Do: Format some text
@@ -119,6 +120,8 @@ This text is ***bold and italicized***. This text is also ___bold and italicized
 <hr>
 
 > *Did you know*: Markdown can be easily converted to a variety of output formats, including HTML, PDF, and Word, ensuring consistent and clean formatting.
+
+<br>
 
 ## 3. Creating Lists
 
@@ -178,6 +181,9 @@ This will produce:
 
 > *Did you know*: Incorporating Markdown into a student's skill set can open doors to various professional and collaborative opportunities - many junior developers get their start in technical writing jobs.
 
+
+<br>
+
 ## 4. Code Snippets
 
 Code snippets are invaluable in technical documentation, allowing readers to view, understand, and copy code directly from the markdown. 
@@ -233,6 +239,8 @@ function greet(name) {
 
 <hr>
 
+<br>
+
 ## 5. Adding Links
 
 Links in markdown are a straightforward way to reference external resources or provide links to other pages in your documentation. 
@@ -280,6 +288,8 @@ This is [a reference][example].
 
 <hr>
 
+<br>
+
 ## 6. Blockquotes
 
 Blockquotes are handy for highlighting important asides in text, often representing citations, referenced content, or emphasizing statements in your Markdown documents.
@@ -321,6 +331,7 @@ Blockquotes can contain other Markdown formatted elements, like headers, lists, 
 1. Locate the helpful "Tip:" at the end of the "Basic Syntax" section. Format this text as a blockquote. 
 
 <hr>
+<br>
 
 ## 7. Adding Images
 
@@ -370,10 +381,10 @@ Here, the image `functions_addNums.png` is in an `assets` folder in the same dir
 
 2. Place the image in the same folder as your `README.md` file. 
 
-3. Replace the code snippet in the "Return Values" with this colorful image instead. 
+3. Replace the code snippet in the "Return Values" section with this colorful image instead. 
 
 <hr>
-
+<br>
 
 ## Extended Syntax
 
@@ -502,6 +513,7 @@ Functions can process data input and output a value using the *return* keyword.
 For more information on functions and how they are used in JS, check out the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions). 
 
 <hr> 
+<br>
 
 ## You Do: Create another tutorial ( 30 min )
 
