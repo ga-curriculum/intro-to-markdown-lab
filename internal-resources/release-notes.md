@@ -1,10 +1,10 @@
-# [tktk Module Name] - Release Notes
+# Intro to Markdown Lab - Release Notes
 
 ![Hero image](../assets/tktkhero-secondary.png)
 
 ## Version 1.0 - Updates from legacy content
 
-This release modularizes the legacy [tktk previous lab name] lab and provides some other minor updates detailed below.
+***Nothing here yet.***
 
 ### Release details
 

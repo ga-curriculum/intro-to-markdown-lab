@@ -1,21 +1,20 @@
-# [tktk Module Name]
+# Intro to Markdown Lab
 
 ![Hero image](./assets/tktkhero-main.png)
 
 ## Introduction
 
-tktk Introduce the lab. What will the students build in this lab?
+This lab is all about diving into Markdown, that simple but powerful syntax we often use to style text on the web. 
 
 ## Lab content
 
 - [Setup](./setup/README.md)
 - [Lab exercise](./exercise/README.md)
-- [tktk Starter code remove if no starter](#tktk-external-repo-link)
-- [tktk Solution code](#tktk-external-repo-link)
+- [Solution code](./solution-code/README.md)
 
 ## Time to complete
 
-tktk Estimated time to complete core lab exercise: 
+Estimated time to complete core lab exercise: 60 min
 
 ## Additional content 
 
