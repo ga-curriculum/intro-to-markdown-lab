@@ -11,11 +11,14 @@ Markdown is frequently used for crafting documentation and coding tutorials. Sit
 
 In this lab, we'll guide you through the basics of creating a Markdown file.
 
- - While exploring this new syntax we'll practice applying some markdown formatting to a simple coding tutorial: ***"How to Write a Function in JavaScript"***. 
+ - While exploring this new syntax we'll practice applying some markdown formatting to a short coding tutorial: ***"How to Write a Function in JavaScript"***. The raw text content for this tutorial has been provided in the setup for this lab. 
 
- - By the end of this lab, you'll have a polished Markdown sample document, and all the tools you'll need to ***create another markdown document on a topic of your choice***. 
+ - By the end of this exercise, you'll have a finished sample Markdown document, and all the tools you'll need to ***create another short tutorial on a topic of your choice***. 
 
 Let's explore! 
+
+
+<br>
 
 ## 1. Headers 
 
@@ -49,6 +52,12 @@ Creates this formatting:
 ###### h6
 <!-- End Preview -->
 
+<br>
+
+> **Did you know** :  Markdown is supported by numerous platforms, including GitHub, Stack Exchange, Reddit, and many blogging platforms, making it an essential skill for both developers and writers.
+
+
+
 <hr>
 
 ### You Do: Format your headers. 
@@ -58,10 +67,10 @@ Creates this formatting:
 Use these keyboard shortcuts to open a preview tab in VS Code:
  - Mac: **Cmd+K  V**
  - Windows/Linux: **Ctrl+K  V**
+
 <hr>
 
-> *Did you know* :  Markdown is supported by numerous platforms, including GitHub, Stack Exchange, Reddit, and many blogging platforms, making it an essential skill for both developers and writers.
-
+<br><br>
 
 ## 2. Text Styles
 
@@ -98,6 +107,9 @@ This text is ***bold and italicized***. This text is also ___bold and italicized
 <!-- End Preview -->
 
 <br>
+
+> **Did you know**: Markdown can be easily converted to a variety of output formats, including HTML, PDF, and Word, ensuring consistent and clean formatting.
+
 <hr>
 
 ### You Do: Format some text
@@ -119,9 +131,7 @@ This text is ***bold and italicized***. This text is also ___bold and italicized
   
 <hr>
 
-> *Did you know*: Markdown can be easily converted to a variety of output formats, including HTML, PDF, and Word, ensuring consistent and clean formatting.
-
-<br>
+<br><br>
 
 ## 3. Creating Lists
 
@@ -168,6 +178,7 @@ This will produce:
    2. Subitem 2.2
 <!-- End preview -->
 
+<br>
 
 > **Tip**: Markdown handles the numbering automatically, so you can use 1. for every item, and it will still increment correctly. Try it. 
 
@@ -176,13 +187,9 @@ This will produce:
 ### You Do: Make a list
 
 1) In the "Basic Syntax" section, find the three components of syntax again (we made them bold). Format them as an ordered or unordered list.
-
 <hr>
 
-> *Did you know*: Incorporating Markdown into a student's skill set can open doors to various professional and collaborative opportunities - many junior developers get their start in technical writing jobs.
-
-
-<br>
+<br><br>
 
 ## 4. Code Snippets
 
@@ -228,6 +235,8 @@ function greet(name) {
 ```
 <!-- End preview -->
 
+<br>
+
 > **Tip** : Popular programming languages supported for syntax highlighting include javascript, python, ruby, html, and many more!
 
 
@@ -236,10 +245,9 @@ function greet(name) {
 ### You Do: Create Code Blocks
 
 1. Locate the code snippets in each of the content sections. Apply the correct markdown syntax to format them as language highlighted code blocks.
-
 <hr>
 
-<br>
+<br><br>
 
 ## 5. Adding Links
 
@@ -279,6 +287,9 @@ This is [a reference][example].
 [example]: http://www.example.com/
 <!-- End preview -->
 
+<br>
+
+> **Did you know**: Incorporating Markdown into a student's skill set can open doors to various professional and collaborative opportunities - many junior developers get their start in technical writing jobs.
 
 <hr>
 
@@ -287,7 +298,6 @@ This is [a reference][example].
 1. Locate the link to the MDN page at the bottom of the `README.md`, format this as an inline style link. 
 
 <hr>
-
 <br>
 
 ## 6. Blockquotes
@@ -386,7 +396,7 @@ Here, the image `functions_addNums.png` is in an `assets` folder in the same dir
 <hr>
 <br>
 
-## Extended Syntax
+## 8. Extended Syntax
 
 There are a handful of extended features in markdown that are not supported in all platforms.
 Here are a few of our favorite elements. 
@@ -459,7 +469,7 @@ This text has been ~~redacted~~.
 # Let's check your work
 
 
-Compare your `README.md` to the Markdown below: 
+Compare your `README.md` preview to the formatted Markdown below: 
 
 
 <hr>
@@ -512,8 +522,8 @@ Functions can process data input and output a value using the *return* keyword.
 
 For more information on functions and how they are used in JS, check out the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions). 
 
-<hr> 
 <br>
+<hr> 
 
 ## You Do: Create another tutorial ( 30 min )
 
@@ -521,9 +531,9 @@ For more information on functions and how they are used in JS, check out the [MD
 
 2) Choose a new topic, we've provided a few for inspiration:
 
-   - How to write an HTMl Boilerplate
+   - How to write an HTML Boilerplate
    - The anatomy of a CSS selector
    - How to create a file using the Terminal
    - How to build the perfect sandwich
 
-3) Practice your new skills by writing a tutorial in Markdown.
+3) Practice your new skills by writing another short tutorial in Markdown.
