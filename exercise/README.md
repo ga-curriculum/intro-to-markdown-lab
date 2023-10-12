@@ -213,7 +213,7 @@ Use the `console.log()` function to print values to the console.
 
 Inline code formatting is also frequently used to "highlight" text that should stand out, such as file names `index.html`, special characters `>` `%` `+`, or anything else you need to call attention to in the middle of a sentence. 
 
-### Multi-line Code Blocks
+### Multi-line code blocks
 
 To present multi-line code snippets or blocks, use three backticks ( ``` ) consecutively as an opening and closing syntax. To enhance readability, you can also specify the programming language right after the first three backticks, enabling markdown syntax highlighting.
 
@@ -293,7 +293,7 @@ This is [a reference][example].
 
 <hr>
 
-### You Do: Site the Docs
+### You Do: Site the docs
 
 1. Locate the link to the MDN page at the bottom of the `README.md`, format this as an inline style link. 
 
@@ -336,7 +336,7 @@ Blockquotes can contain other Markdown formatted elements, like headers, lists, 
 
 <hr>
 
-### You Do: Create a Blockquote
+### You Do: Create a blockquote
 
 1. Locate the helpful "Tip:" at the end of the "Basic Syntax" section. Format this text as a blockquote. 
 
@@ -403,57 +403,33 @@ Here are a few of our favorite elements.
 
 **Tables**
 
-
 ```
 | Syntax | Description |
 | ------ | ----------- |
 | Header | Title |
 | Paragraph | Text |
 ```
-
+<!-- Markdown preview -->
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
-
+<!-- End preview -->
+<br> 
 
 **Task Lists**
 
-
 ```
 - [x] Task 1
 - [ ] Task 2
 - [ ] Task 3
 ```
-
+<!-- Markdown preview -->
 - [x] Task 1
 - [ ] Task 2
 - [ ] Task 3
-
-
-**Highlight**
-
-```
-Look a ==color== other than gray! 
-```
-
-Look a ==color== other than gray! 
-
-
-**Sub Script**
-
-```
-H~2~O
-```
-
-H~2~O
-
-**Super Script**
-
-```
-X^2^
-```
-X^2^
+<!-- End preview -->
+<br> 
 
 **Strikethrough**
 
