@@ -445,7 +445,7 @@ This text has been ~~redacted~~.
 # Let's check your work
 
 
-Compare your `README.md` preview to the formatted Markdown below: 
+Compare your `README.md` preview to the formatted Markdown below. Make any needed adjustments to match this formatting. Solution code will be provided. 
 
 
 <hr>
