@@ -89,10 +89,14 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
 
 ## Preview Markdown
 
-VS Code supports Markdown files out of the box. Simply save your document with an .md extension. This allows you to effortlessly switch between the code view and a live preview of your Markdown content. If you have an existing Markdown document, you can easily open and modify it within VS Code as well.
+VS Code supports Markdown files out of the box. Simply save your document with an .md extension. 
+This allows you to effortlessly switch between the code view and a live preview of your Markdown content. 
+If you have an existing Markdown document, you can easily open and modify it within VS Code as well.
 
-To switch between views, press ⇧⌘V in the editor. 
+You can view a preview side-by-side with the file you are editing and see changes reflected in real-time as you edit.
 
-You can view the preview side-by-side (⌘K V) with the file you are editing and see changes reflected in real-time as you edit.
+Use these keyboard shortcuts to open a preview tab in VS Code:
+ - Mac: **Cmd+K  V**
+ - Windows/Linux: **Ctrl+K  V**
 
 ***[read the docs](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview)***
