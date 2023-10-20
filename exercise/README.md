@@ -357,12 +357,12 @@ To embed an image, the syntax is almost like creating a hyperlink in Markdown, b
 
 This syntax:
 ```
-![some alt text](www.fake_url_to_an_image.com/image)
+![some alt text](www.url_to_an_image.com/image)
 ```
 
 Produces an image: 
 <!-- Markdown preview -->
-![some alt text](www.fake_url_to_an_image.com/image)
+![some alt text](www.url_to_an_image.com/image)
 <!-- End preview -->
 
 <br>
@@ -413,7 +413,7 @@ Let's source an image from the web and include it in our markdown file. We'll be
 4. Link to the image using a URL.
 
 ```
-![some alt text](www.fake_url_to_an_image.com/image)
+![some alt text](www.url_to_an_image.com/image)
 ```
 
 *To use a downloaded image:*
@@ -425,7 +425,7 @@ Let's source an image from the web and include it in our markdown file. We'll be
 4. Link to the image using a relative file path. 
 
 ```
-![My image](./the-name-of-my-image.jpg)
+![some alt text](./the-name-of-my-image.jpg)
 ```
 
 
