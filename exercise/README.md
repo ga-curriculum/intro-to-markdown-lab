@@ -233,8 +233,8 @@ function printItem(item) {
 Produces this formatting: 
 <!-- Markdown preview -->
 ```Javascript
-function greet(name) {
-  console.log("Hello, " + name + "!");
+function printItem(item) {
+  console.log(item)
 }
 ```
 <!-- End preview -->
@@ -248,7 +248,7 @@ function greet(name) {
 
 ### You Do: Create Code Blocks
 
-1. Locate the code snippets in each of the content sections. Apply the correct markdown syntax to format them as language highlighted code blocks.
+1. Locate the code snippets in each of the content sections of your `README.md`. Apply the correct markdown syntax to format them as language highlighted code blocks.
 <hr>
 
 <br><br>
@@ -259,7 +259,7 @@ Links in markdown are a straightforward way to reference external resources or p
 
 
 #### Inline-style Links
-You can create an inline link by wrapping link text in brackets `[My URL]`, and then wrapping the URL in parentheses `(www.myurl.com)`.
+You can create an inline link by wrapping the link text in brackets `[My URL]`, followed by the URL in parentheses `(www.myurl.com)`.
 
 
 This syntax:
@@ -293,7 +293,7 @@ This is [a reference][example].
 
 <br>
 
-> **Did you know**: Incorporating Markdown into a student's skill set can open doors to various professional and collaborative opportunities - many junior developers get their start in technical writing jobs.
+> **Did you know**: Incorporating Markdown into a student's skill set can open doors to various professional and collaborative opportunities. Many junior developers get their start in technical writing jobs.
 
 <hr>
 
@@ -336,13 +336,13 @@ Produces this formatting:
 >>> Another nested blockquote.
 <!-- End preview -->
 
-Blockquotes can contain other Markdown formatted elements, like headers, lists, or even other blockquotes. Try it out. 
+Blockquotes can contain other Markdown formatted elements, like `headers`, `lists`, or even other `blockquotes`. Try it out. 
 
 <hr>
 
 ### You Do: Create a blockquote
 
-1. Locate the helpful "Tip:" at the end of the "Basic Syntax" section. Format this text as a blockquote. 
+1. Locate the helpful "Tip:" at the end of the "Basic Syntax" section in your `README.md`. Format this text as a blockquote. 
 
 <hr>
 <br>
@@ -372,21 +372,21 @@ Because no ***actual*** URL was linked in this example, you'll see a **broken im
 
 Let's source an image from the web and include it in our markdown file. We'll be sourcing an image from Unsplash, a website that offers high-quality, royalty-free images. 
 
-1. Open your browser and navigate to [Unsplash](https://unsplash.com/).
+1. Open a new browser tab and navigate to [Unsplash](https://unsplash.com/).
 
-2. Use the search bar or browse through the categories to find an image that you'd like to include in your Markdown file. Let's find something that might be a nice banner image for our tutorial to draw readers in. 
+2. Use the search bar or browse through the categories to find an image that you'd like to include in your Markdown file. Let's find something that might be a nice banner image for our tutorial- to draw readers in!
 
-3. Click on an image to open it. Right-click on the image and select **"Copy image address."**
+3. Click on an image to open it. Right-click on the image and select **"Copy image address"**.
 
-4. Now, back to your Markdown file. To include the image, you'll need an exclamation point `!`, followed by some Atl text in square brackets, followed by the URL in parentheses: 
+4. Now, back to your Markdown file. To include the image, you'll need an exclamation point `!`, followed by some Atl text in square brackets `[ ]`, followed by the URL in parentheses `( )`: 
 
 
-the syntax:
+syntax:
 ```
 ![Computer with Code](https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&q=80&w=1631&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 ```
 
-the rendered image:
+resulting image:
 ![Computer with Code](https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&q=80&w=1631&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 
@@ -401,12 +401,17 @@ This uses the same syntax, just with a local file path:
 ![Computer with Code](./assets/james-harrison-unsplash.jpg)
 ```
 
-the rendered image: 
+resulting image: 
 <!-- Markdown preview -->
 ![Computer with Code](./assets/james-harrison-unsplash.jpg)
 <!-- End preview -->
 
-Here, the image `james-harrison-unsplash.jpg` is in an `assets` folder in the same directory as this Markdown document.
+In this example, the image `james-harrison-unsplash.jpg` is in an `assets` folder in the same directory as this Markdown document.
+
+```
+![Computer with Code](./assets/james-harrison-unsplash.jpg)
+```
+
 
 To use a relative path, first you'll need to download an image. 
 
