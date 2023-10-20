@@ -42,7 +42,15 @@ Functions can process data input and output a value using the *return* keyword.
 
 *Example:* 
 
-![image](./assets/functions_addNums.png)
+'''javascript
+function addNums(numA, numB) {
+    return numA + numB
+}
+
+const total = addNums(2, 4);
+
+console.log(total) // Expected value: 6
+'''
 
 
 For more information on functions and how they are used in JS, check out the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions). 

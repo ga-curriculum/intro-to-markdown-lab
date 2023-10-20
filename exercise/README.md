@@ -1,26 +1,30 @@
 # Intro to Markdown Lab - Lab Exercise
 
-![Hero image](./assets/hero.png)
+![Hero image](../assets/hero.png)
 
 Markdown is a lightweight, intuitive language designed for formatting text. Whether you're jotting down notes, drafting a blog, or collaborating on a coding project, Markdown streamlines your writing process. With its simple syntax, it emphasizes content over intricate formatting, making your text clean and readable. It's quickly becoming a must-know language in both the tech and writing worlds. 
 
 Markdown is frequently used for crafting documentation and coding tutorials. Sites like Github host entire bodies of curriculum written in this format. You're reading one right now.
 
  
-## Your Task
+## Your Tasks
 
-In this lab, we'll guide you through the basics of creating a Markdown file.
+In this two part lab, we'll guide you through the basics of creating a Markdown file.
 
+### Part 1 
  - While exploring this new syntax we'll practice applying some markdown formatting to a short coding tutorial: ***"How to Write a Function in JavaScript"***. The raw text content for this tutorial has been provided in the setup for this lab. 
 
+### Part 2
  - By the end of this exercise, you'll have a finished sample Markdown document, and all the tools you'll need to ***create another short tutorial on a topic of your choice***. 
+
 
 Let's explore! 
 
-
 <br>
 
-## 1. Headers 
+## Part 1: Applying styles in markdown
+
+### 1. Headers 
 
 Headers in Markdown are used to create titles and subtitles, much like how they work in HTML. They provide structure to your document, making it easier to read and navigate.
 
@@ -72,11 +76,11 @@ Use these keyboard shortcuts to open a preview tab in VS Code:
 
 <br><br>
 
-## 2. Text Styles
+### 2. Text Styles
 
 The three most common ways to format text in markdown is: **Bold**, *Italics*, or ***Both***. 
 
-### Italic
+#### Italic
 
 1) Italicize text by wrapping it with `*` or `_`.
 ```
@@ -86,7 +90,7 @@ This text is in *italics*. This text is also in _italics_.
 This text is in *italics*. This text is also in _italics_.
 <!-- End Preview -->
 
-### Bold
+#### Bold
 
 2) Embolden text by wrapping it in with two `**` or `__`.
 ```
@@ -96,7 +100,7 @@ This text is **bold**. This text is also __bold__.
 This text is **bold**. This text is also __bold__.
 <!-- End Preview -->
 
-### Italic and Bold
+#### Italic and Bold
 
 3) Combine italic and bold by adding a third `*` or `_`.
 ```
@@ -133,11 +137,11 @@ This text is ***bold and italicized***. This text is also ___bold and italicized
 
 <br><br>
 
-## 3. Creating Lists
+### 3. Creating Lists
 
 Lists are a foundational aspect of structuring content, offering a clear way to present a series of related items in an organized way. Both are very easy to format in markdown.
 
-### Bulleted Lists : Unordered Lists
+#### Bulleted Lists : Unordered Lists
 To create a bulleted list, you can use either asterisks `*`, plus `+`, or minus `-` followed by a space. These symbols act as bullet points:
 
 ```
@@ -159,7 +163,7 @@ This will render as:
 <!-- End preview -->
 
 
-### Numbered Lists : Ordered Lists
+#### Numbered Lists : Ordered Lists
 
 For numbered lists, simply use numbers followed by a period and a space:
 
@@ -191,11 +195,11 @@ This will produce:
 
 <br><br>
 
-## 4. Code Snippets
+### 4. Code Snippets
 
 Code snippets are invaluable in technical documentation, allowing readers to view, understand, and copy code directly from the markdown. 
 
-### Inline Code
+#### Inline Code
 
 For short, ***inline*** code references, wrap the word or code with backticks ( ` ).
 
@@ -213,7 +217,7 @@ Use the `console.log()` function to print values to the console.
 
 Inline code formatting is also frequently used to "highlight" text that should stand out, such as file names `index.html`, special characters `>` `%` `+`, or anything else you need to call attention to in the middle of a sentence. 
 
-### Multi-line code blocks
+#### Multi-line code blocks
 
 To present multi-line code snippets or blocks, use three backticks ( ``` ) consecutively as an opening and closing syntax. To enhance readability, you can also specify the programming language right after the first three backticks, enabling markdown syntax highlighting.
 
@@ -249,12 +253,12 @@ function greet(name) {
 
 <br><br>
 
-## 5. Adding Links
+### 5. Adding Links
 
 Links in markdown are a straightforward way to reference external resources or provide links to other pages in your documentation. 
 
 
-### Inline-style Links
+#### Inline-style Links
 You can create an inline link by wrapping link text in brackets `[My URL]`, and then wrapping the URL in parentheses `(www.myurl.com)`.
 
 
@@ -269,7 +273,7 @@ Produces this formatting:
 <!-- End preview -->
 
 
-### Reference-style Links
+#### Reference-style Links
 
 For better readability, or if you're referencing the same link multiple times to site a source, you can use reference-style links:
 
@@ -300,7 +304,7 @@ This is [a reference][example].
 <hr>
 <br>
 
-## 6. Blockquotes
+### 6. Blockquotes
 
 Blockquotes are handy for highlighting important asides in text, often representing citations, referenced content, or emphasizing statements in your Markdown documents.
 
@@ -343,11 +347,11 @@ Blockquotes can contain other Markdown formatted elements, like headers, lists, 
 <hr>
 <br>
 
-## 7. Adding Images
+### 7. Adding Images
 
-Using images can elevate your documentation, tutorials, and project write-ups. Embedding images is very easy in Markdown (and the best way to include screen shots of your projects!)  
+Using images can elevate your documentation, tutorials, and project write-ups. Embedding images is very easy in Markdown (and the best way to include screen shots in a project).  
 
-### Hosted Image Embedding
+#### Hosted Image Embedding
 
 To embed an image, the syntax is almost like creating a hyperlink in Markdown, but it's prefixed with an exclamation mark `!`.
 
@@ -365,43 +369,76 @@ Because no ***actual*** URL was linked in this example, you'll see a **broken im
 
 > **Tip**: Always use descriptive ***alt text***. Alt text, short for "alternative text," is a descriptive text added to an image's HTML tag on websites and other digital platforms. Its primary purpose is to provide a clear description of the image's content for those who cannot view it directly. Screen readers, search engines, and slow internet connections depend on this text to provide context.
 
-### Using Relative Paths
+
+Let's source an image from the web and include it in our markdown file. We'll be sourcing an image from Unsplash, a website that offers high-quality, royalty-free images. 
+
+1. Open your browser and navigate to [Unsplash](https://unsplash.com/).
+
+2. Use the search bar or browse through the categories to find an image that you'd like to include in your Markdown file. Let's find something that might be a nice banner image for our tutorial to draw readers in. 
+
+3. Click on an image to open it. Right-click on the image and select **"Copy image address."**
+
+4. Now, back to your Markdown file. To include the image, you'll need an exclamation point `!`, followed by some Atl text in square brackets, followed by the URL in parentheses: 
+
+
+the syntax:
+```
+![Computer with Code](https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&q=80&w=1631&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+```
+
+the rendered image:
+![Computer with Code](https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&q=80&w=1631&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+
+
+#### Using Relative Image Paths
 
 If your image is stored in the same repository or directory as your Markdown file, you can use relative paths instead of full URLs:
 
-This syntax: 
+This uses the same syntax, just with a local file path: 
 
 ```
-![Function Diagram](./assets/functions_addNums.png)
+![Computer with Code](./assets/james-harrison-unsplash.jpg)
 ```
 
-Produces this image: 
+the rendered image: 
 <!-- Markdown preview -->
-![Function Diagram](./assets/functions_addNums.png)
+![Computer with Code](./assets/james-harrison-unsplash.jpg)
 <!-- End preview -->
 
-Here, the image `functions_addNums.png` is in an `assets` folder in the same directory as this Markdown document.
+Here, the image `james-harrison-unsplash.jpg` is in an `assets` folder in the same directory as this Markdown document.
 
+To use a relative path, first you'll need to download an image. 
+
+1. If using images from a site like Unsplash, simply select the option to download the image instead of copying the link address. 
+
+2. Find the image in your downloads folder and move it into the directory with your markdown file. 
+
+3. Link to the image using a relative file path. 
+
+```
+![My image](./the-name-of-my-image.jpg)
+```
 
 <hr>
 
 ### You Do: Add an image
 
-1. Right click the image above and download it to your computer.
+1. Download an image you like from [Unsplash](https://unsplash.com/).
 
-2. Place the image in the same folder as your `README.md` file. 
+2. Place the downloaded image in the same folder as your `README.md` file. 
 
-3. Replace the code snippet in the "Return Values" section with this colorful image instead. 
+3. Add a link to your image right under the `# title` of your tutorial. 
 
 <hr>
 <br>
 
-## 8. Extended Syntax
+### 8. Extended Syntax
 
 There are a handful of extended features in markdown that are not supported in all platforms.
 Here are a few of our favorite elements. 
 
-**Tables**
+#### Tables
 
 ```
 | Syntax | Description |
@@ -417,7 +454,7 @@ Here are a few of our favorite elements.
 <!-- End preview -->
 <br> 
 
-**Task Lists**
+#### Task Lists
 
 ```
 - [x] Task 1
@@ -431,7 +468,7 @@ Here are a few of our favorite elements.
 <!-- End preview -->
 <br> 
 
-**Strikethrough**
+#### Strikethrough
 
 ```
 This text has been ~~redacted~~. 
@@ -442,15 +479,18 @@ This text has been ~~redacted~~.
 <br> 
 
 
-# Let's check your work
+## Let's check your work
 
 
 Compare your `README.md` preview to the formatted Markdown below. Make any needed adjustments to match this formatting. Solution code will be provided. 
 
+***Solution Markdown Below!***
 
 <hr>
 
 # Writing a Function in JavaScript
+
+![Computer with Code](./assets/james-harrison-unsplash.jpg)
 
 In JavaScript, functions are blocks of reusable code. They allow you to bundle functionality, make it more readable, and avoid repetition. Here's a brief tutorial on writing a function in JavaScript.
 
@@ -493,7 +533,15 @@ Functions can process data input and output a value using the *return* keyword.
 
 *Example:* 
 
-![image](./assets/functions_addNums.png)
+```javascript
+function addNums(numA, numB) {
+    return numA + numB
+}
+
+const total = addNums(2, 4);
+
+console.log(total) // Expected value: 6
+```
 
 
 For more information on functions and how they are used in JS, check out the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions). 
@@ -501,7 +549,7 @@ For more information on functions and how they are used in JS, check out the [MD
 <br>
 <hr> 
 
-## You Do: Create another tutorial ( 30 min )
+## Part 2: Create another tutorial ( 30 min )
 
 1) Create a new file with a `.md` extension.
 
@@ -512,4 +560,4 @@ For more information on functions and how they are used in JS, check out the [MD
    - How to create a file using the Terminal
    - How to build the perfect sandwich
 
-3) Practice your new skills by writing another short tutorial in Markdown.
+3) Practice your new skills by writing another short tutorial in Markdown! 
