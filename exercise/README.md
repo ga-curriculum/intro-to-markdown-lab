@@ -201,7 +201,7 @@ Code snippets are invaluable in technical documentation, allowing readers to vie
 
 #### Inline Code
 
-For short, ***inline*** code references, wrap the word or code with backticks ( ` ).
+For short, ***inline*** code references, wrap the word or code with backticks `` ` ``.
 
 This syntax: 
 
@@ -219,21 +219,21 @@ Inline code formatting is also frequently used to "highlight" text that should s
 
 #### Multi-line code blocks
 
-To present multi-line code snippets or blocks, use three backticks ( ``` ) consecutively as an opening and closing syntax. To enhance readability, you can also specify the programming language right after the first three backticks, enabling markdown syntax highlighting.
+To present multi-line code snippets or blocks, use three backticks `` ``` `` consecutively as an opening and closing syntax. To enhance readability, you can also specify the programming language right after the first three backticks, enabling markdown syntax highlighting.
 
 This syntax:
-```
-'''javascript
-function printItem(item) {
+````
+```javascript
+const printItem = (item) => {
   console.log(item)
 }
-'''
 ```
+````
 
 Produces this formatting: 
 <!-- Markdown preview -->
 ```Javascript
-function printItem(item) {
+const printItem = (item) => {
   console.log(item)
 }
 ```
