@@ -357,29 +357,21 @@ To embed an image, the syntax is almost like creating a hyperlink in Markdown, b
 
 This syntax:
 ```
-![Alt Text](www.fake_url_to_an_image.com/image)
+![some alt text](www.fake_url_to_an_image.com/image)
 ```
 
 Produces an image: 
 <!-- Markdown preview -->
-![Alt Text](fake_URL_to_an_image)
+![some alt text](www.fake_url_to_an_image.com/image)
 <!-- End preview -->
 
-Because no ***actual*** URL was linked in this example, you'll see a **broken image placeholder** with the alt text displayed.
+<br>
+
+Wait, why no image? Because we did not include an ***actual*** URL in this example, you'll see a **broken image placeholder** with the alt text displayed. This same placeholder is displayed whenever there is a problem loading an image, such as poor internet connection or the image location has changed. 
 
 > **Tip**: Always use descriptive ***alt text***. Alt text, short for "alternative text," is a descriptive text added to an image's HTML tag on websites and other digital platforms. Its primary purpose is to provide a clear description of the image's content for those who cannot view it directly. Screen readers, search engines, and slow internet connections depend on this text to provide context.
 
-
-Let's source an image from the web and include it in our markdown file. We'll be sourcing an image from Unsplash, a website that offers high-quality, royalty-free images. 
-
-1. Open a new browser tab and navigate to [Unsplash](https://unsplash.com/).
-
-2. Use the search bar or browse through the categories to find an image that you'd like to include in your Markdown file. Let's find something that might be a nice banner image for our tutorial- to draw readers in!
-
-3. Click on an image to open it. Right-click on the image and select **"Copy image address"**.
-
-4. Now, back to your Markdown file. To include the image, you'll need an exclamation point `!`, followed by some Atl text in square brackets `[ ]`, followed by the URL in parentheses `( )`: 
-
+Now let's view a real example:
 
 syntax:
 ```
@@ -393,7 +385,7 @@ resulting image:
 
 #### Using Relative Image Paths
 
-If your image is stored in the same repository or directory as your Markdown file, you can use relative paths instead of full URLs:
+If your image is stored in the same repo as your Markdown file, you can use a relative path instead of a URL.
 
 This uses the same syntax, just with a local file path: 
 
@@ -401,39 +393,41 @@ This uses the same syntax, just with a local file path:
 ![Computer with Code](./assets/james-harrison-unsplash.jpg)
 ```
 
-resulting image: 
-<!-- Markdown preview -->
-![Computer with Code](./assets/james-harrison-unsplash.jpg)
-<!-- End preview -->
-
 In this example, the image `james-harrison-unsplash.jpg` is in an `assets` folder in the same directory as this Markdown document.
 
-```
-![Computer with Code](./assets/james-harrison-unsplash.jpg)
-```
-
-
-To use a relative path, first you'll need to download an image. 
-
-1. If using images from a site like Unsplash, simply select the option to download the image instead of copying the link address. 
-
-2. Find the image in your downloads folder and move it into the directory with your markdown file. 
-
-3. Link to the image using a relative file path. 
-
-```
-![My image](./the-name-of-my-image.jpg)
-```
 
 <hr>
 
 ### You Do: Add an image
 
-1. Download an image you like from [Unsplash](https://unsplash.com/).
+Let's source an image from the web and include it in our markdown file. We'll be sourcing an image from Unsplash, a website that offers high-quality, royalty-free images. 
 
-2. Place the downloaded image in the same folder as your `README.md` file. 
+1. Open a new browser tab and navigate to [Unsplash](https://unsplash.com/).
 
-3. Add a link to your image right under the `# title` of your tutorial. 
+2. Use the search bar or browse through the categories to find an image that you'd like to include in your Markdown file. Let's find something that might be a nice banner image for our tutorial- to draw readers in!
+
+*To use a hosted image:*
+
+3. Select an image to open it. Right-click on the image and select **"Copy image address"** to copy the image URL.
+
+4. Link to the image using a URL.
+
+```
+![some alt text](www.fake_url_to_an_image.com/image)
+```
+
+*To use a downloaded image:*
+
+3. Select an image to open it. Choose the download option and select an image size. 
+
+3. Find the image in your downloads folder and move it into the directory with your markdown file. 
+
+4. Link to the image using a relative file path. 
+
+```
+![My image](./the-name-of-my-image.jpg)
+```
+
 
 <hr>
 <br>
