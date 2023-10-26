@@ -7,7 +7,7 @@ Markdown is a lightweight, intuitive language designed for formatting text. Whet
 Markdown is frequently used for crafting documentation and coding tutorials. Sites like Github host entire bodies of curriculum written in this format. You're reading one right now.
 
  
-## Your Tasks
+## Your tasks
 
 In this two part lab, we'll guide you through the basics of creating a Markdown file.
 
@@ -64,7 +64,7 @@ Creates this formatting:
 
 <hr>
 
-### You Do: Format your headers. 
+### 🧠 You do: Format your headers. 
 
 1) Find the main and section titles in your `README.md`. Apply the correct `#` header syntax to give these sections the proper hierarchy.
 
@@ -76,7 +76,7 @@ Use these keyboard shortcuts to open a preview tab in VS Code:
 
 <br><br>
 
-### 2. Text Styles
+### 2. Text styles
 
 The three most common ways to format text in markdown is: **Bold**, *Italics*, or ***Both***. 
 
@@ -100,7 +100,7 @@ This text is **bold**. This text is also __bold__.
 This text is **bold**. This text is also __bold__.
 <!-- End Preview -->
 
-#### Italic and Bold
+#### Italic and bold
 
 3) Combine italic and bold by adding a third `*` or `_`.
 ```
@@ -116,9 +116,9 @@ This text is ***bold and italicized***. This text is also ___bold and italicized
 
 <hr>
 
-### You Do: Format some text
+### 🧠 You do: Format some text
 
-1) Find the "Basic Syntax" section in your `README.md` file. Look for the three components of syntax.
+1) Find the "Basic syntax" section in your `README.md` file. Look for the three components of syntax.
 ```
   function: ...
   functionName: ...
@@ -127,9 +127,9 @@ This text is ***bold and italicized***. This text is also ___bold and italicized
 2) Make these words **bold**. 
 
 
-3) In the "Calling a Function" section, make the words "call" and "invoke" *italicized*. This signals that these are new vocabulary words that require *emphasis*. 
+3) In the "Calling a function" section, make the words "call" and "invoke" *italicized*. This signals that these are new vocabulary words that require *emphasis*. 
 
-4) Do the same for the word "return" where it is introduced in the "Return Values" section.
+4) Do the same for the word "return" where it is introduced in the "Return values" section.
 
 5) Above each of the code snippets you'll find the word "Example:" Format each of these as either **bold** or *italic*. You choose. 
   
@@ -137,11 +137,11 @@ This text is ***bold and italicized***. This text is also ___bold and italicized
 
 <br><br>
 
-### 3. Creating Lists
+### 3. Creating lists
 
 Lists are a foundational aspect of structuring content, offering a clear way to present a series of related items in an organized way. Both are very easy to format in markdown.
 
-#### Bulleted Lists : Unordered Lists
+#### Bulleted lists: unordered lists
 To create a bulleted list, you can use either asterisks `*`, plus `+`, or minus `-` followed by a space. These symbols act as bullet points:
 
 ```
@@ -163,7 +163,7 @@ This will render as:
 <!-- End preview -->
 
 
-#### Numbered Lists : Ordered Lists
+#### Numbered lists: ordered lists
 
 For numbered lists, simply use numbers followed by a period and a space:
 
@@ -188,18 +188,18 @@ This will produce:
 
 <hr>
 
-### You Do: Make a list
+### 🧠 You do: Make a list
 
-1) In the "Basic Syntax" section, find the three components of syntax again (we made them bold). Format them as an ordered or unordered list.
+1) In the "Basic syntax" section, find the three components of syntax again (we made them bold). Format them as an ordered or unordered list.
 <hr>
 
 <br><br>
 
-### 4. Code Snippets
+### 4. Code snippets
 
 Code snippets are invaluable in technical documentation, allowing readers to view, understand, and copy code directly from the markdown. 
 
-#### Inline Code
+#### Inline code
 
 For short, ***inline*** code references, wrap the word or code with backticks `` ` ``.
 
@@ -225,16 +225,16 @@ This syntax:
 ````
 ```javascript
 const printItem = (item) => {
-  console.log(item)
+  console.log(item);
 }
 ```
 ````
 
 Produces this formatting: 
 <!-- Markdown preview -->
-```Javascript
+```javascript
 const printItem = (item) => {
-  console.log(item)
+  console.log(item);
 }
 ```
 <!-- End preview -->
@@ -246,19 +246,19 @@ const printItem = (item) => {
 
 <hr>
 
-### You Do: Create Code Blocks
+### 🧠 You do: Create code blocks
 
 1. Locate the code snippets in each of the content sections of your `README.md`. Apply the correct markdown syntax to format them as language highlighted code blocks.
 <hr>
 
 <br><br>
 
-### 5. Adding Links
+### 5. Adding links
 
 Links in markdown are a straightforward way to reference external resources or provide links to other pages in your documentation. 
 
 
-#### Inline-style Links
+#### Inline-style links
 You can create an inline link by wrapping the link text in brackets `[My URL]`, followed by the URL in parentheses `(www.myurl.com)`.
 
 
@@ -273,7 +273,7 @@ Produces this formatting:
 <!-- End preview -->
 
 
-#### Reference-style Links
+#### Reference-style links
 
 For better readability, or if you're referencing the same link multiple times to site a source, you can use reference-style links:
 
@@ -297,7 +297,7 @@ This is [a reference][example].
 
 <hr>
 
-### You Do: Site the docs
+### 🧠 You do: Cite the docs
 
 1. Locate the link to the MDN page at the bottom of the `README.md`, format this as an inline style link. 
 
@@ -340,18 +340,18 @@ Blockquotes can contain other Markdown formatted elements, like `headers`, `list
 
 <hr>
 
-### You Do: Create a blockquote
+### 🧠 You do: Create a blockquote
 
-1. Locate the helpful "Tip:" at the end of the "Basic Syntax" section in your `README.md`. Format this text as a blockquote. 
+1. Locate the helpful "Tip:" at the end of the "Basic syntax" section in your `README.md`. Format this text as a blockquote. 
 
 <hr>
 <br>
 
-### 7. Adding Images
+### 7. Adding images
 
 Using images can elevate your documentation, tutorials, and project write-ups. Embedding images is very easy in Markdown (and the best way to include screen shots in a project).  
 
-#### Hosted Image Embedding
+#### Hosted image embedding
 
 To embed an image, the syntax is almost like creating a hyperlink in Markdown, but it's prefixed with an exclamation mark `!`.
 
@@ -383,7 +383,7 @@ resulting image:
 
 
 
-#### Using Relative Image Paths
+#### Using relative image paths
 
 If your image is stored in the same repo as your Markdown file, you can use a relative path instead of a URL.
 
@@ -398,7 +398,7 @@ In this example, the image `james-harrison-unsplash.jpg` is in an `assets` folde
 
 <hr>
 
-### You Do: Add an image
+### 🧠 You do: Add an image
 
 Let's source an image from the web and include it in our markdown file. We'll be sourcing an image from Unsplash, a website that offers high-quality, royalty-free images. 
 
@@ -432,7 +432,7 @@ Let's source an image from the web and include it in our markdown file. We'll be
 <hr>
 <br>
 
-### 8. Extended Syntax
+### 8. Extended syntax
 
 There are a handful of extended features in markdown that are not supported in all platforms.
 Here are a few of our favorite elements. 
@@ -453,7 +453,7 @@ Here are a few of our favorite elements.
 <!-- End preview -->
 <br> 
 
-#### Task Lists
+#### Task lists
 
 ```
 - [x] Task 1
@@ -493,7 +493,7 @@ Compare your `README.md` preview to the formatted Markdown below. Make any neede
 
 In JavaScript, functions are blocks of reusable code. They allow you to bundle functionality, make it more readable, and avoid repetition. Here's a brief tutorial on writing a function in JavaScript.
 
-## 1. Basic Syntax
+## 1. Basic syntax
 
 ```javascript
 function functionName(parameters) {
@@ -515,7 +515,7 @@ function greet(name) {
 
 > Tip: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
 
-## 2. Calling a Function
+## 2. Calling a function
 
 To execute the function, you *call* or *invoke* it by using its name followed by parentheses.
 
@@ -526,7 +526,7 @@ greet('Alice'); // Outputs: Hello, Alice!`
 ```
 
 
-## 3. Return Values
+## 3. Return values
 
 Functions can process data input and output a value using the *return* keyword.
 
@@ -534,12 +534,12 @@ Functions can process data input and output a value using the *return* keyword.
 
 ```javascript
 function addNums(numA, numB) {
-    return numA + numB
+    return numA + numB;
 }
 
 const total = addNums(2, 4);
 
-console.log(total) // Expected value: 6
+console.log(total); // Expected value: 6
 ```
 
 

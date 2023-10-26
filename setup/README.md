@@ -30,7 +30,7 @@ code .
 
 ## Starter Content
 
-For this Lab we'll be applying some Markdown formatting to some existing written content. We've provided that content below. 
+For this lab we'll be applying some Markdown formatting to some existing written content. We've provided that content below. 
 
 Paste the following raw content into your newly created `README.md` file:
 
@@ -39,7 +39,7 @@ Writing a Function in JavaScript
 
 In JavaScript, functions are blocks of reusable code. They allow you to structure your code, make it more readable, and avoid repetition. Here's a brief guide on creating a function in JavaScript.
 
-1. Basic Syntax
+1. Basic syntax
 
 function functionName(parameters) {
     // code to be executed
@@ -57,7 +57,7 @@ function greet(name) {
 
 Tip: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
 
-2. Calling a Function
+2. Calling a function
 
 To execute the function, you call or invoke it by using its name followed by parentheses.
 
@@ -66,7 +66,7 @@ Example:
 greet('Alice'); // Outputs: Hello, Alice!
 
 
-3. Return Values
+3. Return values
 
 Functions can process data input and output a value using the return keyword.
 
@@ -87,7 +87,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
 
 
 
-## Preview Markdown
+## Preview markdown
 
 VS Code supports Markdown files out of the box. Simply save your document with an .md extension. 
 This allows you to effortlessly switch between the code view and a live preview of your Markdown content. 

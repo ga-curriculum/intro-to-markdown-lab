@@ -13,7 +13,7 @@
 
 
 **Changes**
-
+- Update content to be style guide compliant.
 
 
 **Removals**

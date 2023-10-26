@@ -7,7 +7,7 @@
 
 In JavaScript, functions are blocks of reusable code. They allow you to bundle functionality, make it more readable, and avoid repetition. Here's a brief tutorial on writing a function in JavaScript.
 
-## 1. Basic Syntax
+## 1. Basic syntax
 
 
 ```javascript
@@ -32,7 +32,7 @@ function greet(name) {
 
 > Tip: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
 
-## 2. Calling a Function
+## 2. Calling a function
 
 To execute the function, you *call* or *invoke* it by using its name followed by parentheses.
 
@@ -43,7 +43,7 @@ greet('Alice'); // Outputs: Hello, Alice!`
 ```
 
 
-## 3. Return Values
+## 3. Return values
 
 Functions can process data input and output a value using the *return* keyword.
 
