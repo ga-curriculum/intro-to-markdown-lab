@@ -1,6 +1,4 @@
-# Intro to Markdown Lab
-
-![Hero image](./assets/tktkhero-main.png)
+# ![Intro to Markdown Lab](./assets/hero.png)
 
 ## Introduction
 

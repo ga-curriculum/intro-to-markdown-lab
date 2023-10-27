@@ -1,5 +1,3 @@
-# Intro to Markdown Lab - Level Up
-
-![Hero image](./assets/hero.png)
+# ![Intro to Markdown Lab - Level Up](./assets/hero.png)
 
 ***Nothing here yet.***
