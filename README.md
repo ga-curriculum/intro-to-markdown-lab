@@ -4,13 +4,13 @@
 
 ## Introduction
 
-This lab is all about diving into Markdown, that simple but powerful syntax we often use to style text on the web. 
+This lab is all about diving into Markdown, a simple but powerful syntax we often use to format documents on the web. 
 
 ## Lab content
 
 - [Setup](./setup/README.md)
 - [Lab exercise](./exercise/README.md)
-- [Solution code](./solution-code/README.md)
+- [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-markdown-lab-solution)
 
 ## Time to complete
 

@@ -2,20 +2,6 @@
 
 ![Hero image](../assets/tktkhero-secondary.png)
 
-## Version 1.0 - Updates from legacy content
+## Version 1.0 
 
-***Nothing here yet.***
-
-### Release details
-
-**Additions**
-
-
-
-**Changes**
-- Update content to be style guide compliant.
-
-
-**Removals**
-
-
+This is new content!
