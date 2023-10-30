@@ -32,11 +32,11 @@ Paste the following raw content into your newly created `README.md` file:
 ```
 Writing a Function in JavaScript
 
-In JavaScript, functions are blocks of reusable code. They allow you to structure your code, make it more readable, and avoid repetition. Here's a brief guide on creating a function in JavaScript.
+In JavaScript, functions are blocks of reusable code. They allow you to bundle functionality, make it more readable, and avoid repetition. Here's a brief tutorial on writing an arrow function in JavaScript.
 
 1. Basic syntax
 
-function functionName(parameters) {
+const functionName = (params) => {
   // code to be executed
 }
 
@@ -48,7 +48,7 @@ The body: The statements that make up the function itself. Surrounded by curly b
 
 Example:
 
-function greet(name) {
+const greet = (name) => {
   console.log("Hello, " + name + "!");
 }
 
@@ -68,7 +68,7 @@ Functions can process data input and output a value using the return keyword.
 
 Example: 
 
-function addNums(numA, numB) {
+const addNums = (numA, numB) => {
   return numA + numB
 }
 

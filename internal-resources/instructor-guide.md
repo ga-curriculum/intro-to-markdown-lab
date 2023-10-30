@@ -1,6 +1,4 @@
-# Intro to Markdown Lab - Instructor Guide
-
-![Hero image](../assets/hero.png)
+# ![Intro to Markdown Lab - Instructor Guide](../assets/hero.png)
 
 ***Nothing here yet.***
 

@@ -468,13 +468,14 @@ This text has been ~~redacted~~.
 This text has been ~~redacted~~. 
 <!-- End Preview -->
 
+<br><br>
+
 ## Let's check your work
 
-Compare your `README.md` preview to the formatted Markdown below. Make any needed adjustments to match this formatting. Solution code will be provided. 
+Compare your `README.md` **preview** to the rendered Markdown below. Make any needed adjustments to match this formatting. Solution code will be provided. 
 
-***Solution Markdown Below!***
+<br><br>
 
-````
 # Writing a Function in JavaScript
 
 ![Computer with Code](./assets/james-harrison-unsplash.jpg)
@@ -532,7 +533,8 @@ console.log(total) // Expected value: 6
 ```
 
 For more information on functions and how they are used in JS, check out the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions).
-````
+
+<br>
 
 ## Part 2: Create another tutorial ( 30 min )
 

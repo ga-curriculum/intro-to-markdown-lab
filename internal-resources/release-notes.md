@@ -1,6 +1,4 @@
-# Intro to Markdown Lab - Release Notes
-
-![Hero image](../assets/hero.png)
+# ![Intro to Markdown Lab - Release Notes](../assets/hero.png)
 
 ## Version 1.0 
 
