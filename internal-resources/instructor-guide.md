@@ -1,6 +1,9 @@
-# ![Intro to Markdown Lab - Instructor Guide](../assets/hero.png)
+<h1>
+  <span class="headline">Intro to Markdown Lab</span>
+  <span class="subhead">Instructor Guide</span>
+</h1>
 
-***Nothing here yet.***
+**_Nothing here yet_**
 
 ---
 
