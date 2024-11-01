@@ -1,4 +1,7 @@
-# ![Intro to Markdown Lab - Release Notes](../assets/hero.png)
+<h1>
+  <span class="headline">Intro to Markdown Lab</span>
+  <span class="subhead">Release Notes</span>
+</h1>
 
 ## Version 1.0 
 

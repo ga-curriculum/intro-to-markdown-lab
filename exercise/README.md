@@ -1,4 +1,7 @@
-# ![Intro to Markdown Lab - Lab Exercise](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to Markdown Lab</span>
+  <span class="subhead">Exercise</span>
+</h1>
 
 Markdown is a lightweight, intuitive language designed for formatting text. Whether you're jotting down notes, drafting a blog, or collaborating on a coding project, Markdown streamlines your writing process. Its simple syntax emphasizes content over intricate formatting, making your text clean and readable. It's quickly becoming a must-know language in both the tech and writing worlds. 
 
