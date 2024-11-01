@@ -32,6 +32,11 @@ Estimated time to complete core lab exercise: **60 min**
 
 🐙 [Repository](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-markdown-lab-solution)
 
+### Github Pages Sites
+
+- [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-markdown-lab/canvas-landing-pages/fallback)
+- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-markdown-lab/canvas-landing-pages/seb)
+
 ### Resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
