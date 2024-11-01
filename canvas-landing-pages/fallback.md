@@ -12,3 +12,7 @@ This lab is designed with beginners in mind, making it a suitable starting point
 
 - [Setup](../setup/README.md)
 - [Exercise](../exercise/README.md)
+
+## Deployed sites
+
+🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-markdown-lab-solution/live-solution/)
