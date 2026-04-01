@@ -28,12 +28,12 @@ Estimated time to complete core lab exercise: **60 min**
 
 ### Deployed sites
 
-🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-markdown-lab-solution/live-solution/)
+🌐 [Live Example](https://ga-curriculum.github.io/intro-to-markdown-lab-solution/live-solution/)
 
 ### Course landing pages
 
-- [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-markdown-lab/canvas-landing-pages/fallback)
-- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-markdown-lab/canvas-landing-pages/seb)
+- [Default Landing Page](https://ga-curriculum.github.io/intro-to-markdown-lab/canvas-landing-pages/fallback)
+- [SEB - Software Engineering Bootcamp](https://ga-curriculum.github.io/intro-to-markdown-lab/canvas-landing-pages/seb)
 
 ### Resources
 
@@ -45,4 +45,4 @@ Estimated time to complete core lab exercise: **60 min**
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback)!**
