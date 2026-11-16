@@ -14,4 +14,4 @@ This lab is designed with beginners in mind, making it a suitable starting point
 
 ## Deployed sites
 
-🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-markdown-lab-solution/live-solution/)
+🌐 [Live Example](https://ga-curriculum.github.io/intro-to-markdown-lab-solution/live-solution/)

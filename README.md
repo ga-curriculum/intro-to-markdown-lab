@@ -24,7 +24,7 @@ Estimated time to complete core lab exercise: **60 min**
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-markdown-lab-solution)
+🏁 [Solution code](https://github.com/ga-curriculum/intro-to-markdown-lab-solution)
 
 ### Deployed sites
 
